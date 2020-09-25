@@ -35,6 +35,7 @@ div.menu ul li a {
 div.menu ul li a:hover  {
     background-color: white;
     color: #4d5791;
+    font-weight: bold;
 }
 
 div.hero {
@@ -54,7 +55,7 @@ div.hero h2 {
 }
 
 div.hero h1 {
-    color: #fff;
+    color: #4d5791;
     font-size: 4.2em;
     margin-bottom: 20px;
 }
@@ -83,16 +84,17 @@ div.hero h2 {
     text-align: center;
 }
 
-.container div.text-box {
+.container section.text-box {
     display: inline-block;
     width: 100%;
     max-width: 340px;
     text-align: justify;
     margin: 20px;
+    font-size: 12pt;
 }
 
 @media screen and (min-width: 768px) {
-    .container .div.text-box {
+    .container .section.text-box {
         margin: 10px;
     }
 }
