@@ -18,6 +18,22 @@ const budget = {
             title: 'Grocery',
             budget: 110
         },
+        {
+            title: 'Entertainment',
+            budget: 55
+        },
+        {
+            title: 'Gas',
+            budget: 150
+        },
+        {
+            title: 'House Repairs',
+            budget: 300
+        },
+        {
+            title: 'Alimony',
+            budget: 500
+        },
     ]
 };
 
@@ -26,7 +42,8 @@ const budget = {
  });
 
  app.get('/budget', (req, res) => {
-    res.json(budget);
+     const data = require('./budget');
+    res.json(data);
  });
 
  app.listen(port, () => {
