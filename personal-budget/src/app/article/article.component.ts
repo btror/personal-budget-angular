@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArticleComponent implements OnInit {
 
+  @Input() title = 'Title';
+  @Input() content = 'Content';
 
   constructor() { }
 
